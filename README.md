@@ -51,16 +51,7 @@ Network scanning is used to identify active hosts, open services, and communicat
 ### 3. Enumeration
 Enumeration extends discovery by identifying open ports, running services, software versions, and protocol behavior. This helps determine where systems may have misconfigurations or exposure points.
 
-### 4. Reporting and Documentation
-A strong security assessment is only as good as its documentation. Reports should clearly describe scope, evidence, findings, and recommendations in a structured and professional format.
 
-## Repository Contents
-
-```text
-FOOTPRINTING-NETWORK-SCANNING-PHASES/
-├── README.md
-├── FOOTPRINTING-NETWORK-SCANNING.pdf
-└── LICENSE (if added in the future)
 ```
 
 ### Included Files
