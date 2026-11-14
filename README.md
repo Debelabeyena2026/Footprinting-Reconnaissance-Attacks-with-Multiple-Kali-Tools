@@ -1,124 +1,73 @@
-# FOOTPRINTING & NETWORK SCANNING PHASES
-
-<div align="center">
+# Footprinting & Network Scanning Phases
 
 ![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-blue)
-![Ethical%20Use](https://img.shields.io/badge/Use-Ethical%20Security-green)
-![Documentation](https://img.shields.io/badge/Type-Assessment%20Documentation-orange)
-![PDF](https://img.shields.io/badge/Format-PDF-red)
+![Use](https://img.shields.io/badge/Use-Ethical%20%26%20Authorized-green)
+![Resource](https://img.shields.io/badge/Resource-Study%20Guide-orange)
+![Format](https://img.shields.io/badge/Format-PDF-red)
 
-</div>
+A learning resource on the phases of footprinting, network discovery, and assessment reporting. Use these materials for study, defensive security work, and assessments conducted with explicit authorization.
 
-Professional documentation and sample resources covering footprinting and network scanning methodologies, tools, techniques, and assessment reporting for authorized security evaluations.
+## Contents
+
+- [Overview](#overview)
+- [Learning objectives](#learning-objectives)
+- [Topics covered](#topics-covered)
+- [Repository contents](#repository-contents)
+- [Suggested study path](#suggested-study-path)
+- [Responsible use](#responsible-use)
+- [Contributing](#contributing)
+- [Disclaimer](#disclaimer)
 
 ## Overview
 
-This repository is designed to support learning and professional reference in the areas of footprinting and network scanning. It contains a structured PDF document that outlines the major phases, tools, and practical examples commonly used in cybersecurity reconnaissance and security assessment workflows.
+Footprinting and network scanning are stages in a security assessment used to understand an environment's publicly exposed information, reachable systems, and services. This repository provides introductory documentation to help readers understand these stages and how findings can be recorded for authorized defensive review.
 
-The materials in this repository are intended for educational purposes, defensive security review, and authorized testing in environments where explicit permission has been granted.
+## Learning objectives
 
-## Table of Contents
+After reviewing the material, readers should be able to:
 
-- [Purpose](#purpose)
-- [Key Topics](#key-topics)
-- [Repository Contents](#repository-contents)
-- [Common Tools and Techniques](#common-tools-and-techniques)
-- [Ethical and Legal Use](#ethical-and-legal-use)
-- [How to Use This Repository](#how-to-use-this-repository)
-- [Disclaimer](#disclaimer)
+- Explain the purpose of footprinting and distinguish passive research from authorized active assessment.
+- Describe, at a high level, host discovery, port and service identification, and enumeration.
+- Recognize why scope, permission, and minimizing impact matter during an assessment.
+- Organize observations into clear, useful assessment notes.
 
-## Purpose
+## Topics covered
 
-The goal of this project is to provide a clear and professional understanding of:
+- Footprinting concepts and publicly available information
+- Passive and active information gathering (and the importance of authorization)
+- Network discovery and host identification
+- Port and service identification
+- Operating-system and service fingerprinting concepts
+- Assessment documentation and reporting considerations
 
-- footprinting fundamentals
-- passive and active information gathering techniques
-- network discovery and host identification
-- port and service enumeration
-- OS and service fingerprinting
-- sample assessment outputs and reporting styles
+This README is an overview, not a step-by-step guide for scanning systems. Any practical assessment must stay within a clearly defined, approved scope.
 
-This repository helps users better understand how reconnaissance activities are structured in a controlled and authorized security context.
+## Repository contents
 
-## Key Topics
+| File | Description |
+| --- | --- |
+| [`FOOTPRINTING-NETWORK-SCANNING.pdf`](FOOTPRINTING-NETWORK-SCANNING.pdf) | The accompanying PDF with further discussion of the phases, concepts, and assessment references. |
+| [`README.md`](README.md) | Repository overview and responsible-use guidance. |
 
-### 1. Footprinting
-Footprinting focuses on collecting information about a target without directly interfering with its systems. It may include domain and IP intelligence, DNS analysis, public exposure assessment, and infrastructure mapping.
+## Suggested study path
 
-### 2. Network Scanning
-Network scanning is used to identify active hosts, open services, and communication pathways that may be exposed within a target environment. This step is essential in understanding the attack surface and service distribution.
+1. Read the PDF to understand the concepts and phases.
+2. Review your organization's assessment rules and obtain written authorization before any practical work.
+3. Keep any assessment within its approved targets, timeframe, and methods; stop if scope or permission is unclear.
+4. Record observations accurately and share them only with the authorized stakeholders.
 
-### 3. Enumeration
-Enumeration extends discovery by identifying open ports, running services, software versions, and protocol behavior. This helps determine where systems may have misconfigurations or exposure points.
+## Responsible use
 
+Only assess systems that you own or for which you have explicit permission. Follow applicable laws, organizational policies, and the agreed scope. Do not use this material to conduct unauthorized reconnaissance, access systems without permission, disrupt services, or invade privacy.
 
-```
+## Contributing
 
-### Included Files
-
-- `README.md` — project overview and documentation
-- `FOOTPRINTING-NETWORK-SCANNING.pdf` — detailed PDF covering methodologies, tools, and sample assessment references
-
-## Common Tools and Techniques
-
-The following tools and methods are typically associated with footprinting and network scanning workflows:
-
-- Nmap
-- WHOIS and DNS tools
-- Dig and Nslookup
-- Traceroute and Ping
-- Netdiscover
-- theHarvester
-- Shodan
-- Maltego
-- masscan
-- public reconnaissance and certificate analysis
-
-## Ethical and Legal Use
-
-This repository is intended strictly for:
-
-- educational learning
-- defensive security analysis
-- authorized security assessments
-- internal review in environments where permission has been granted
-
-It must not be used for:
-
-- unauthorized reconnaissance
-- malicious exploitation
-- privacy invasion
-- illegal access attempts
-
-## How to Use This Repository
-
-1. Read the `README.md` for background and context.
-2. Review the `FOOTPRINTING-NETWORK-SCANNING.pdf` for detailed methodology and examples.
-3. Use the content as a study reference for ethical and authorized security assessment practices.
-4. Apply the concepts only in environments where you have explicit permission and legal authorization.
-
-## Project Status
-
-Status: Active documentation and learning repository
-
-Focus area:
-- Footprinting
-- Network scanning
-- Security assessment methodology
-- Reconnaissance documentation
+Improvements to clarity, accessibility, corrections, and educational context are welcome. Keep contributions focused on lawful, defensive, and authorized use. Please avoid adding instructions that facilitate unauthorized access or disruption.
 
 ## Disclaimer
 
-This repository is provided for educational and authorized security assessment purposes only. The information contained herein should be used responsibly and in compliance with all applicable laws, organizational policies, and contractual agreements.
-
-The repository owner and contributors do not endorse unauthorized access, malicious activity, or any use of this material outside legally compliant and explicitly authorized scenarios.
-
-## Contact / Contribution
-
-This project is primarily a documentation and learning resource. Contributions, improvements, and refined assessment examples are welcome when they align with educational, ethical, and lawful use of cybersecurity knowledge.
+This repository is provided for educational and authorized defensive-security purposes. It is not legal advice and does not grant permission to test any system. The repository owner and contributors are not responsible for misuse. Always obtain appropriate authorization and follow applicable laws and policies.
 
 ---
 
-<p align="center">
-  <strong>Built for ethical learning, defensive analysis, and authorized security evaluation.</strong>
-</p>
+<p align="center"><strong>For ethical learning, defensive analysis, and authorized assessment.</strong></p>
